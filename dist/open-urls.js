@@ -4,7 +4,6 @@
     var exports = {};
 
     exports.open = function(arr, interval) {
-        var isUrl = this.isUrl;
         var i;
         if (typeof(interval) === "undefined") {
             interval = 0;
